@@ -1,1 +1,2 @@
 # DataMiningProject
+La mia idea consiste nello sviluppare un modello per prevedere la variabile target "esi_level", ovvero il livello di gravità e priorità di un paziente al momento dell'accettazione in pronto soccorso (triage). A tale scopo, vorrei utilizzare un dataset individuato sulla piattaforma HuggingFace (accessibile al seguente link: https://huggingface.co/datasets/olaflaitinen/fedmml-ed-triage).
