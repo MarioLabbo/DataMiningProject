@@ -25,7 +25,7 @@ X_scalata = scaler.fit_transform(X) # Valori come età e globuli vengono scalati
 df_finale = pandas.DataFrame(X_scalata, columns=X.columns)  # Ricreiamo il Dataset
 df_finale['esi_level'] = y.values   # Mettiamoci la colonna target
 
-nome_file_finale = "dataset_ml_pronto.csv"      # Salvataggio finale
+nome_file_finale = "dataset_ml_pronto.csv"  # Salvataggio finale
 df_finale.to_csv(nome_file_finale, index=False)
 
 print(f"\nPulizia terminata! File salvato come '{nome_file_finale}'.")
