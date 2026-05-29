@@ -15,7 +15,6 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 # Riduzione delle dimensioni
 pca = PCA(n_components=2)
-
 # Trasformiamo la nostra X (15 colonne) in X_pca (2 colonne)
 X_pca = pca.fit_transform(X)
 
